@@ -10,7 +10,7 @@
 * [Contributing](#Contributing)
 
 ## About
-CryptoTrack is a cryptocurrency tracker application to allow users to keep track of the latest trends on the leading cryptocurrencies on the global market.
+CryptoTrack is a cryptocurrency tracker application to allow users to keep track of the latest trends on the leading cryptocurrencies on the global market. This application was built using Next.JS and is powered by the CoinGecko API to reliably retrieve the latest top notch cryptocurrency data.
 
 Check out the deployed application here: <insert link to deployed app>
 
