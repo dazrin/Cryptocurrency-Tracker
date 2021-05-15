@@ -1,4 +1,4 @@
-# CryptoTrack: A Cryptocurrency Tracker Application <img alt="Next.js" src="https://img.shields.io/badge/next.js%20-%2320232a.svg?&style=for-the-badge&logo=next.js&logoColor=%2361DAFB"/> <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> 
+# CryptoTrack: A Cryptocurrency Tracker Application <img alt="Next.js" src="https://img.shields.io/badge/next.js%20-%2320232a.svg?&style=for-the-badge&logo=next.js&logoColor=%2361DAFB"/>
 
 # Table of Contents
 * [About](#about)
