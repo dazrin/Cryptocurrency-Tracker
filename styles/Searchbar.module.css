@@ -1,5 +1,6 @@
 .coin__search{
     margin-bottom: 64px;
+    margin-left: 710px;
     display: flex;
     align-items: center;
     width: 300px;
@@ -8,7 +9,7 @@
 
 .coin__input{
     background: #222531;
-    border: none;
+    border: thick double #32a1ce;
     padding: 16px;
     border-radius: 4px;
     outline: none;

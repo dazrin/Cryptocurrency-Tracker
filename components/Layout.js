@@ -12,6 +12,7 @@ const Layout = ({ children, title = 'CryptoTrack' }) => {
             <header className='header'>
                 <Link href='/' passHref>
                     <a>
+
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="217.000000pt" height="108.000000pt" viewBox="0 0 317.000000 208.000000"
                         preserveAspectRatio="xMidYMid meet">
