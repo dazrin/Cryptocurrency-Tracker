@@ -1,13 +1,22 @@
 // Import components/ dependencies
 import SearchBar from "../components/SearchBar";
 import CoinList from "../components/CoinList";
+import { useState } from 'react';
 
 export default function Home({ coinsData }) {
+  const [search, setSearch] = useState('');
+
+  const filteredCoins = coinsData.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase()));
+
+  const handleChange = e => {
+    e.preventDefault();
+    setSearch(e.target.value.toLowerCase());
+  }
 
   return (
     <div>
-      <SearchBar type="text" placeholder="Search" />
-      <CoinList coinsData={coinsData} />
+      <SearchBar type="text" placeholder="Search" onChange={handleChange} />
+      <CoinList coinsData={filteredCoins} />
     </div>
   )
 }
